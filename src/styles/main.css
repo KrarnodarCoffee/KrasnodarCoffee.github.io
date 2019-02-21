@@ -1,0 +1,90 @@
+@import './bootstrap/bootstrap-grid.css';
+/* @import './bootstrap/bootstrap.css'; */
+
+
+body {
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #a96b40;
+  text-align: left;
+}
+
+hr {
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.indonesian-map {
+  padding: 20px 0px;
+  background-color: #030100;
+}
+
+.coffee {
+  background: url("../coffee.png") bottom center / cover no-repeat;
+  height: 330px;
+  width: 990px;
+  margin: auto;
+  position: relative; 
+}
+
+.descriptions {
+  background-color: #030100;
+  text-align: center;
+}
+
+.descriptions-title {
+  text-align: center;
+  width: 100%;
+}
+
+.benefits {
+  padding: 20px 0px;
+  background-color: #cfcfd1;
+  text-align: center;
+  color:  #212529;
+}
+
+.benefits-title {
+  text-align: center;
+  width: 100%;
+}
+
+.benefits-coffee {
+  background: url("../benefits.jpg");
+  background-size: cover;
+  height: 580px;
+}
+
+.benefits-text {
+  font-size: 24px;
+  text-align: center;
+}
+
+.armenia {
+  background-color: #333333;
+  color: #ffffff;
+}
+
+.armenia-coffee {
+  background: url("../1.jpg");
+  background-size: cover;
+  height: 350px;
+}
