@@ -39,11 +39,44 @@ p {
 
 .coffee {
   background: url("../coffee.png") bottom center / cover no-repeat;
-  height: 330px;
-  width: 990px;
+  
   margin: auto;
   position: relative; 
 }
+
+@media (min-width: 576px) {
+  .coffee {
+    height: 100px;
+    width: 300px;
+  }
+
+  .benefits-coffee {
+    height: 535px;
+  }
+} 
+
+@media (min-width: 768px) {
+  .coffee {
+    height: 265px;
+    width: 796px;
+  }
+
+  .benefits-coffee {
+    height: 730px;
+  }
+} 
+
+@media (min-width: 992px) {
+  .coffee {
+    height: 330px;
+    width: 990px;
+  }
+
+  .benefits-coffee {
+    height: 490px;
+  }
+} 
+
 
 .descriptions {
   background-color: #030100;
@@ -70,7 +103,6 @@ p {
 .benefits-coffee {
   background: url("../benefits.jpg");
   background-size: cover;
-  height: 580px;
 }
 
 .benefits-text {
